@@ -105,7 +105,7 @@ greenlet==0.4.15
 grpcio==1.16.0
 h5py==2.8.0
 html5lib==0.999999999
-httplib2==0.11.3
+httplib2==0.18.0
 httptools==0.1.1
 hyperopt==0.1
 hypopt==1.0.7
