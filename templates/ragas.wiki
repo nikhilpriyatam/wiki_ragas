@@ -1,0 +1,139 @@
+{%- macro infobox(regional_name, alternates, melam_num, chakra, janya_of, category, aro_seq, ava_seq, hind) -%}
+{{'{{Infobox ragam'}}
+	| name          	= {{regional_name}}
+	| synonym	    	= {{alternates|join(', ') if alternates}}
+	| mela          	= {{melam_num if melam_num is not none}}
+	| chakra        	= {{chakra if chakra is not none}}
+	| janaka        	= {{janya_of if janya_of is not none}}
+	| type          	= {{category if category is not none}}
+	| arohanam      	= {{ ['{{svaraC|', aro_seq, '}}']|join|string }} 
+	| avarohanam    	= {{ ['{{svaraC|', ava_seq, '}}']|join|string }}
+	| jeeva         	=
+	| chhaya        	=
+	| nyasa         	=
+	| vishesha      	= 
+	| equivalent  		= {{hind|join(', ') if hind is not none}}
+{{'}}'}}
+{{'{{కర్ణాటక సంగీత రాగాలు}}'}}
+{%- endmacro -%}
+{%- macro get_cat_sent(category) -%}
+{#- This macro prints information about raga's category -#}
+	{%- if category is not none -%}
+		{%- if category == 'స్వరాంతర' -%}
+			{{ ' ఈ రాగంలో నాలుగు స్వరాలు ఉండడం వల్ల దీనిని స్వరాంతర రాగం అంటారు.' }}
+		{%- elif category == 'ఔడవ' -%}
+			{{ ' ఈ రాగంలో ఐదు స్వరాలు ఉండడం వల్ల దీనిని ఔడవ రాగం అంటారు.' }}
+		{%- elif category == 'శాడవ' -%}
+			{{ ' ఈ రాగంలో ఆరు స్వరాలు ఉండడం వల్ల దీనిని షాడవ రాగం అంటారు.' }}
+		{%- elif category == 'సంపూర్ణ' -%}
+			{{ ' ఈ రాగంలో సప్త స్వరాలు ఉండడం వల్ల దీనిని సంపూర్ణ రాగం అంటారు.' }}
+		{%- elif category == 'స్వరాంతర-ఔడవ' -%}
+			{{ ' ఈ రాగం ఆరోహణలో నాలుగు స్వరాలు, అవరోహణంలో ఐదు స్వరాలు ఉండడం వల్ల దీనిని స్వరాంతర-ఔడవ రాగం అంటారు.' }}
+		{%- elif category == 'స్వరాంతర-శాడవ' -%}
+			{{ ' ఈ రాగం ఆరోహణలో నాలుగు స్వరాలు, అవరోహణంలో ఆరు స్వరాలు ఉండడం వల్ల దీనిని స్వరాంతర-షాడవ రాగం అంటారు.' }}
+		{%- elif category == 'స్వరాంతర-సంపూర్ణ' -%}
+			{{ ' ఈ రాగం ఆరోహణలో నాలుగు స్వరాలు, అవరోహణంలో సప్త స్వరాలు ఉండడం వల్ల దీనిని స్వరాంతర-సంపూర్ణ రాగం అంటారు.' }}
+		{%- elif category == 'ఔడవ-స్వరాంతర' -%}
+			{{ ' ఈ రాగం ఆరోహణలో ఐదు స్వరాలు, అవరోహణంలో నాలుగు స్వరాలు ఉండడం వల్ల దీనిని ఔడవ-స్వరాంతర రాగం అంటారు.' }}
+		{%- elif category == 'ఔడవ-శాడవ' -%}
+			{{ ' ఈ రాగం ఆరోహణలో ఐదు స్వరాలు, అవరోహణంలో ఆరు స్వరాలు ఉండడం వల్ల దీనిని ఔడవ-షాడవ రాగం అంటారు.' }}
+		{%- elif category == 'ఔడవ-సంపూర్ణ' -%}
+			{{ ' ఈ రాగం ఆరోహణలో ఐదు స్వరాలు, అవరోహణంలో సప్త స్వరాలు ఉండడం వల్ల దీనిని ఔడవ-సంపూర్ణ రాగం అంటారు.' }}
+		{%- elif category == 'శాడవ-స్వరాంతర' -%}
+			{{ ' ఈ రాగం ఆరోహణలో ఆరు స్వరాలు, అవరోహణంలో స్వరాంతర స్వరాలు ఉండడం వల్ల దీనిని షాడవ-ఔడవ రాగం అంటారు.' }}
+		{%- elif category == 'శాడవ-ఔడవ' -%}
+			{{ ' ఈ రాగం ఆరోహణలో ఆరు స్వరాలు, అవరోహణంలో ఐదు స్వరాలు ఉండడం వల్ల దీనిని షాడవ-ఔడవ రాగం అంటారు.' }}		
+		{%- elif category == 'శాడవ-సంపూర్ణ' -%}
+			{{ ' ఈ రాగం ఆరోహణలో ఆరు స్వరాలు, అవరోహణంలో సప్త స్వరాలు ఉండడం వల్ల దీనిని షాడవ-సంపూర్ణ రాగం అంటారు.' }}
+		{%- elif category == 'సంపూర్ణ-స్వరాంతర' -%}
+			{{ ' ఈ రాగం ఆరోహణలో సప్త స్వరాలు , అవరోహణంలో నాలుగు స్వరాలు ఉండడం వల్ల దీనిని సంపూర్ణ-స్వరాంతర రాగం అంటారు.' }}
+		{%- elif category == 'సంపూర్ణ-ఔడవ' -%}
+			{{ ' ఈ రాగం ఆరోహణలో సప్త స్వరాలు , అవరోహణంలో ఐదు స్వరాలు ఉండడం వల్ల దీనిని సంపూర్ణ-ఔడవ రాగం అంటారు.' }}
+		{%- elif category == 'సంపూర్ణ-శాడవ' -%}
+			{{ ' ఈ రాగం ఆరోహణలో సప్త స్వరాలు , అవరోహణంలో షాడవ స్వరాలు ఉండడం వల్ల దీనిని సంపూర్ణ-ఔడవ రాగం అంటారు.' }}
+		{%- endif -%}
+	{%- endif -%}
+{%- endmacro -%}
+{%- macro get_hindustani_sent(hind) -%}
+	{%- if hind -%}
+		{%- set hind = hind|join(', ')|string -%}
+		{%- if ',' in hind -%}
+			{{ [' హిందుస్తానీ సంగీతంలో', hind, 'రాగాలు దీనితో సమానమైనవి', '[https://karnatik.com/hcragatable.shtml].']|join(' ')|string }}	
+		{%- else -%}
+			{{ [' హిందుస్తానీ సంగీతంలో', hind, 'రాగం దీనితో సమానమైనది', '[https://karnatik.com/hcragatable.shtml].']|join(' ')|string }}		
+		{%- endif -%}	
+	{%- endif -%}	
+{%- endmacro -%}
+{%- macro get_raga_img(img_paths) -%}
+	{%- if img_paths|length is eq 2 -%}
+		[[Image:{{img_paths[0]}}|thumb|right|316px|''{{name}}'' ఆరోహణ C వద్ద షడ్జమంతో]]
+		[[Image:{{img_paths[1]}}|thumb|right|316px|''{{name}}'' అవరోహణ C వద్ద షడ్జమంతో]]
+	{%- else -%}
+		[[Image:{{img_paths[0]}}|thumb|right|316px|''{{name}}'' C వద్ద షడ్జమంతో]]
+	{%- endif -%}
+{%- endmacro -%}
+{{ infobox(regional_name, alternates, melam_num, chakra, janya_of, category, aro_seq, ava_seq, hind) }}
+'''{{regional_name}} రాగము''' [[కర్ణాటక సంగీతం]]లో {{melam_num if melam_num is not none else janaka_melam}}వ [[మేళకర్త రాగము]]{{['', janaka, 'జన్యము']|join(' ')|string if janaka is not none}}. {{['దీనిని', alternates|join(', ')|string, 'అని కూడా అంటారు.']|join(' ')|string if alternates|length > 0}}{{['ఈ రాగం', chakra, 'చక్రానికి చెందినది, ఇందులో సప్త స్వరాలు ఉంటాయి [https://en.wikipedia.org/wiki/Melakarta].']|join(' ')|string if chakra is not none}}{{ get_hindustani_sent(hind) }}{{ get_cat_sent(category) }}
+
+
+==రాగ లక్షణాలు==
+{#{{ get_raga_img(img_paths) }}#}
+
+* ఆరోహణ : {{ ['{{svaraC|', aro_seq, '}}']|join|string }} 
+* అవరోహణ : {{ ['{{svaraC|', ava_seq, '}}']|join|string }}
+
+ఈ రాగం ఆరోహణంలో {{aro_swaras|join(', ')}} [[స్వరాలు]], అవరోహణంలో {{ava_swaras|join(', ')}} [[స్వరాలు]] ఉంటాయి.
+
+==రచనలు==
+{%- if kritis|length > 0 -%}
+{{['\n', 'ఈ రాగంలో ఉన్న కృతుల జాబితా కింద ఇవ్వబడింది [https://github.com/ssrihari/ragavardhini/blob/master/ragas/kritis.psv]', '\n']|join|string}}
+{%- for kriti in kritis -%}
+	{%- if kriti[2]|length > 0 -%}
+		* {{[kriti[0], ' - ', kriti[1], '[', kriti[2], ']', '\n']|join|string}}
+	{%- else -%}
+		* {{[kriti[0], ' - ', kriti[1], '\n']|join|string}}
+	{%- endif-%}
+{%- endfor -%}
+{%- endif -%}
+
+{%- if varnams|length > 0 -%}
+{{['\n', 'ఈ రాగంలో ఉన్న వర్ణాల జాబితా కింద ఇవ్వబడింది [http://www.carnatica.in/kriti/varnamlist.htm].', '\n']|join|string}}
+{%- for varnam in varnams -%}
+	* {{[varnam[0], ' - ', varnam[1], ' - ', varnam[2], ' తాళం', '\n']|join|string}}
+{%- endfor -%}
+{%- endif -%}
+
+
+{%- if songs|length > 0 -%}
+{{['\n', 'ఈ రాగంలో ఉన్న సినీ పాటలు జాబితా కింద ఇవ్వబడింది [http://rksanka.tripod.com/music/rslist.html].', '\n']|join|string}}
+{%- for song in songs -%}
+	* {{[song[0], ' - ', song[1], '\n']|join|string}}
+{%- endfor -%}
+{%- endif -%}
+
+{{['\n', '\n']|join|string}}
+
+==పోలిన రాగాలు==
+{%- if same_aro|length > 0 -%}
+{{['\n', 'ఈ రాగం ఆరోహణము కింద ఇవ్వబడిన రాగాల ఆరోహణముతో సమానమైనది.', '\n']|join|string}}
+{%- for raag in same_aro -%}
+	* {{[raag, '\n']|join|string}}
+{%- endfor -%}
+{%- endif -%}
+
+{%- if same_ava|length > 0 -%}
+{{['\n', 'ఈ రాగం అవరోహణము కింద ఇవ్వబడిన రాగాల అవరోహణముతో సమానమైనది.', '\n']|join|string}}
+{%- for raag in same_ava -%}
+	* {{[raag, '\n']|join|string}}
+{%- endfor -%}
+{%- endif -%}
+
+{%- if one_swara_diff|length > 0 -%}
+{{['\n', 'ఈ క్రింద ఇవ్వబడిన రాగాలకు ఈ రాగంతో ఒక్క స్వరస్థాన భేదం ఉన్నది.', '\n']|join|string}}
+{%- for raag in one_swara_diff -%}
+	* {{[raag, '\n']|join|string}}
+{%- endfor -%}
+{%- endif -%}
+
+{{['\n', '\n']|join|string}}
+[[వర్గం:మేళకర్త రాగాలు]]
