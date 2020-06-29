@@ -47,12 +47,12 @@ KB Creation
 
 * The commands required to generate the Wiki article texts as well as images and sounds for raga moorchana are given below.
 
-.. code: bash
+.. code-block: bash
 
    python create_kb.py --ragas resources/ragas.psv --kritis resources/kritis.psv --songs resources/songs.psv --varnams resources/varnams.psv --hind_ragas resources/hindustani.psv --chakras resources/chakra.psv --alternate_names resources/alternates.psv --transliteration resources/en_to_te.psv --config resources/config.json --result ragakb.json
 
 
-.. code: bash
+.. code-block: bash
 
    python render_moorchana.py --ragakb ragakb.json --config resources/config.json --img_path <path_to_op_img_dir> --audio_path <path_to_op_audio_dir>
 
@@ -76,7 +76,7 @@ Rendering Articles
    * Path to domain specific jinja2 template
    * Result path where the text files should be stored
 
-.. code: bash
+.. code-block: bash
 
    python generate_wiki.py --kb_path ragakb.json --template_name ragas.wiki --result_path rendered_wiki/ragas/
 
