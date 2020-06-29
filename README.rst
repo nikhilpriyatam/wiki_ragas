@@ -1,5 +1,5 @@
 ===================================================
-Generating Wikipedia Articles using Knowledge Bases
+Generating Wiki Raga Articles using Knowledge Bases
 ===================================================
 
 Wikipedia is the largest free online encyclopedia created and edited by volunteers around the world. Wikipedia supports multiple languages. Due to a large number of English speaking volunteers most information is available in English language, whereas several other local language wikis do not have adequate content. Motivating individuals to contribute to local Wikipedia can be effort intensive and time consuming without any guaranteed results. This project aims to improve content coverage in all languages (with a special focus on Indian languages). The overall system architecture is divided into three simple steps
@@ -15,7 +15,6 @@ KB Creation
 ===========
 
 * We create a domain specific KB for carnatic ragas which is stored on disk as JSON file in the form of a list of dictionaries, wherein, each dictionary holds the key: value pairs pertaining to on particular raga.
-
 
 * Information about a raga is be either obtained from existing structured / semi-structured sources or generated automatically from its `moorchana`.
 
@@ -47,12 +46,12 @@ KB Creation
 
 * The commands required to generate the Wiki article texts as well as images and sounds for raga moorchana are given below.
 
-.. code-block: bash
+.. code-block:: bash
 
    python create_kb.py --ragas resources/ragas.psv --kritis resources/kritis.psv --songs resources/songs.psv --varnams resources/varnams.psv --hind_ragas resources/hindustani.psv --chakras resources/chakra.psv --alternate_names resources/alternates.psv --transliteration resources/en_to_te.psv --config resources/config.json --result ragakb.json
 
 
-.. code-block: bash
+.. code-block:: bash
 
    python render_moorchana.py --ragakb ragakb.json --config resources/config.json --img_path <path_to_op_img_dir> --audio_path <path_to_op_audio_dir>
 
@@ -76,7 +75,7 @@ Rendering Articles
    * Path to domain specific jinja2 template
    * Result path where the text files should be stored
 
-.. code-block: bash
+.. code-block:: bash
 
    python generate_wiki.py --kb_path ragakb.json --template_name ragas.wiki --result_path rendered_wiki/ragas/
 
