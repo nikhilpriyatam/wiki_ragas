@@ -59,7 +59,7 @@ class Raga:
 
     def get_one_swara_diff(self, raga_list):
         """Return ragas which has exactly one note different"""
-        res = []
+        res, res_num_kritis = [], []
         s1 = set(self.swaras)
         for r in raga_list:
             s2 = set(r.swaras)
@@ -68,7 +68,10 @@ class Raga:
                 continue
             elif len(s3) + len(s4) >= 1:
                 res.append(r.name)
-        self.one_swara_diff = res
+                n_kritis = 0 if r.kritis is None else len(r.kritis)
+                res_num_kritis.append(n_kritis)
+        res = [x for _, x in sorted(zip(res_num_kritis, res), reverse=True)]
+        self.one_swara_diff = res[:5]
 
     def get_raga_swaras(self, mapping):
         """Get the swarasthanams in raga arohanam and avarohanam"""

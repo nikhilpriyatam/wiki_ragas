@@ -86,7 +86,7 @@
 
 ==రచనలు==
 {%- if kritis|length > 0 -%}
-{{['\n', 'ఈ రాగంలో ఉన్న కృతుల జాబితా కింద ఇవ్వబడింది [https://github.com/ssrihari/ragavardhini/blob/master/ragas/kritis.psv]', '\n']|join|string}}
+{{['\n', 'ఈ రాగంలో ఉన్న కృతుల పాక్షిక జాబితా [https://github.com/ssrihari/ragavardhini/blob/master/ragas/kritis.psv]', '\n']|join|string}}
 {%- for kriti in kritis -%}
 	{%- if kriti[2]|length > 0 -%}
 		* {{[kriti[0], ' - ', kriti[1], '[', kriti[2], ']', '\n']|join|string}}
@@ -97,7 +97,7 @@
 {%- endif -%}
 
 {%- if varnams|length > 0 -%}
-{{['\n', 'ఈ రాగంలో ఉన్న వర్ణాల జాబితా కింద ఇవ్వబడింది [http://www.carnatica.in/kriti/varnamlist.htm].', '\n']|join|string}}
+{{['\n', 'ఈ రాగంలో ఉన్న వర్ణాలు [http://www.carnatica.in/kriti/varnamlist.htm].', '\n']|join|string}}
 {%- for varnam in varnams -%}
 	* {{[varnam[0], ' - ', varnam[1], ' - ', varnam[2], ' తాళం', '\n']|join|string}}
 {%- endfor -%}
@@ -105,7 +105,7 @@
 
 
 {%- if songs|length > 0 -%}
-{{['\n', 'ఈ రాగంలో ఉన్న సినీ పాటలు జాబితా కింద ఇవ్వబడింది [http://rksanka.tripod.com/music/rslist.html].', '\n']|join|string}}
+{{['\n', 'ఈ రాగం ఆధారంగా ఉన్న కొన్ని పాటలు [http://rksanka.tripod.com/music/rslist.html].', '\n']|join|string}}
 {%- for song in songs -%}
 	* {{[song[0], ' - ', song[1], '\n']|join|string}}
 {%- endfor -%}

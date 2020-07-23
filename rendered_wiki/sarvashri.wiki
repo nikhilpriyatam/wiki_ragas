@@ -26,7 +26,7 @@
 ఈ రాగం ఆరోహణంలో షడ్జమం, సుద్ద మధ్యమం, పంచమం, షడ్జమం [[స్వరాలు]], అవరోహణంలో షడ్జమం, పంచమం, సుద్ద మధ్యమం, షడ్జమం [[స్వరాలు]] ఉంటాయి.
 
 ==రచనలు==
-ఈ రాగంలో ఉన్న కృతుల జాబితా కింద ఇవ్వబడింది [https://github.com/ssrihari/ragavardhini/blob/master/ragas/kritis.psv]
+ఈ రాగంలో ఉన్న కృతుల పాక్షిక జాబితా [https://github.com/ssrihari/ragavardhini/blob/master/ragas/kritis.psv]
 * ఉమా సుతమ్ నమామి - ఎం. బాలమురళీకృష్ణ
 
 
