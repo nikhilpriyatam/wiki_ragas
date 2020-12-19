@@ -23,7 +23,7 @@ parser.add_argument('--audio_path', type=str)
 args = parser.parse_args()
 
 CONF = json.load(open(args.config, 'r'))
-FONT = ImageFont.truetype(CONF['font_path'], 40)
+FONT = ImageFont.truetype(CONF['font_path'], CONF['font_size'])
 
 
 def get_img_from_seq(seq, file_name):
@@ -71,9 +71,9 @@ def get_raga_image(raga_moorchana):
         get_img_from_seq(aro, file_path)
         res_paths.append(file_path)
     else:
-        ar_file_path = args.img_path + raga_name + '_ar_kb2wiki.png'
+        ar_file_path = raga_name + '_ar_kb2wiki.png'
         get_img_from_seq(aro, ar_file_path)
-        av_file_path = args.img_path + raga_name + '_av_kb2wiki.png'
+        av_file_path = raga_name + '_av_kb2wiki.png'
         get_img_from_seq(ava, av_file_path)
         res_paths.append(ar_file_path)
         res_paths.append(av_file_path)
@@ -100,6 +100,7 @@ def get_raga_moorchana_audio(raga_moorchana):
 
 ragakb = json.load(open(args.ragakb, 'r'))
 for raga in ragakb:
-    raga_moorchana = [raga['name'], raga['aro'], raga['ava']]
-    get_raga_moorchana_audio(raga_moorchana)
-    get_raga_image(raga_moorchana)
+    if raga['name'] == 'mohanam':
+        raga_moorchana = [raga['name'], raga['aro'], raga['ava']]
+        get_raga_moorchana_audio(raga_moorchana)
+        get_raga_image(raga_moorchana)
