@@ -77,7 +77,7 @@ Rendering Articles
 
 .. code-block:: bash
 
-   python generate_wiki.py --kb_path ragakb.json --template_name ragas.wiki --result_path rendered_wiki/ragas/
+   python generate_wiki_with_images.py --kb_path ragakb.json --img_path raga_images --template_name ragas.wiki --result_path raga_articles
 
 
 Attribution
