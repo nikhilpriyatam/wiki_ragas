@@ -100,7 +100,6 @@ def get_raga_moorchana_audio(raga_moorchana):
 
 ragakb = json.load(open(args.ragakb, 'r'))
 for raga in ragakb:
-    if raga['name'] == 'bhairavi':
-        raga_moorchana = [raga['name'], raga['aro'], raga['ava']]
-        get_raga_image(raga_moorchana)
-        # get_raga_moorchana_audio(raga_moorchana)
+    raga_moorchana = [raga['name'], raga['aro'], raga['ava']]
+    get_raga_image(raga_moorchana)
+    # get_raga_moorchana_audio(raga_moorchana)
