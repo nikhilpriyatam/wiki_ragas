@@ -16,10 +16,10 @@ from PIL import Image, ImageFont, ImageDraw
 
 # pylint: disable=invalid-name
 parser = argparse.ArgumentParser()
-parser.add_argument('--ragakb', type=str)
-parser.add_argument('--config', type=str)
-parser.add_argument('--img_path', type=str)
-parser.add_argument('--audio_path', type=str)
+parser.add_argument('--ragakb', type=str, default="ragakb.json")
+parser.add_argument('--config', type=str, default="resources/config.json")
+parser.add_argument('--img_path', type=str, default="raga_images")
+# parser.add_argument('--audio_path', type=str)
 args = parser.parse_args()
 
 CONF = json.load(open(args.config, 'r'))
@@ -100,7 +100,7 @@ def get_raga_moorchana_audio(raga_moorchana):
 
 ragakb = json.load(open(args.ragakb, 'r'))
 for raga in ragakb:
-    if raga['name'] == 'mohanam':
+    if raga['name'] == 'bhairavi':
         raga_moorchana = [raga['name'], raga['aro'], raga['ava']]
-        get_raga_moorchana_audio(raga_moorchana)
         get_raga_image(raga_moorchana)
+        # get_raga_moorchana_audio(raga_moorchana)

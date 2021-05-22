@@ -66,18 +66,18 @@
 {%- endmacro -%}
 {%- macro get_raga_img(img_paths) -%}
 	{%- if img_paths|length is eq 2 -%}
-		[[Image:{{img_paths[0]}}|thumb|right|316px|''{{name}}'' ఆరోహణ C వద్ద షడ్జమంతో]]
-		[[Image:{{img_paths[1]}}|thumb|right|316px|''{{name}}'' అవరోహణ C వద్ద షడ్జమంతో]]
+	[[Image:{{img_paths[0]}}|thumb|right|316px|''{{regional_name}}'' ఆరోహణ C వద్ద షడ్జమంతో]]
+	[[Image:{{img_paths[1]}}|thumb|right|316px|''{{regional_name}}'' అవరోహణ C వద్ద షడ్జమంతో]]
 	{%- else -%}
-		[[Image:{{img_paths[0]}}|thumb|right|316px|''{{name}}'' C వద్ద షడ్జమంతో]]
+		[[Image:{{img_paths[0]}}|thumb|right|316px|''{{regional_name}}'' C వద్ద షడ్జమంతో]]
 	{%- endif -%}
 {%- endmacro -%}
 {{ infobox(regional_name, alternates, melam_num, chakra, janya_of, category, aro_seq, ava_seq, hind) }}
-'''{{regional_name}} రాగము''' [[కర్ణాటక సంగీతం]]లో {{melam_num if melam_num is not none else janaka_melam}}వ [[మేళకర్త రాగము]]{{['', janaka, 'జన్యము']|join(' ')|string if janaka is not none}}. {{['దీనిని', alternates|join(', ')|string, 'అని కూడా అంటారు.']|join(' ')|string if alternates|length > 0}}{{['ఈ రాగం', chakra, 'చక్రానికి చెందినది, ఇందులో సప్త స్వరాలు ఉంటాయి [https://en.wikipedia.org/wiki/Melakarta].']|join(' ')|string if chakra is not none}}{{ get_hindustani_sent(hind) }}{{ get_cat_sent(category) }}
+'''{{regional_name}}''' రాగము [[కర్ణాటక సంగీతం]]లో {{melam_num if melam_num is not none else janaka_melam}}వ [[మేళకర్త రాగము]]{{['', janaka, 'జన్యము']|join(' ')|string if janaka is not none}}. {{['దీనిని', alternates|join(', ')|string, 'అని కూడా అంటారు.']|join(' ')|string if alternates|length > 0}}{{['ఈ రాగం', chakra, 'చక్రానికి చెందినది, ఇందులో సప్త స్వరాలు ఉంటాయి [https://en.wikipedia.org/wiki/Melakarta].']|join(' ')|string if chakra is not none}}{{ get_hindustani_sent(hind) }}{{ get_cat_sent(category) }}
 
 
 ==రాగ లక్షణాలు==
-{#{{ get_raga_img(img_paths) }}#}
+{{ get_raga_img(img_paths) }}
 
 * ఆరోహణ : {{ ['{{svaraC|', aro_seq, '}}']|join|string }} 
 * అవరోహణ : {{ ['{{svaraC|', ava_seq, '}}']|join|string }}
@@ -89,7 +89,7 @@
 {{['\n', 'ఈ రాగంలో ఉన్న కృతుల పాక్షిక జాబితా [https://github.com/ssrihari/ragavardhini/blob/master/ragas/kritis.psv]', '\n']|join|string}}
 {%- for kriti in kritis -%}
 	{%- if kriti[2]|length > 0 -%}
-		* {{[kriti[0], ' - ', kriti[1], '[', kriti[2], ']', '\n']|join|string}}
+		* {{[kriti[0], ' - ', kriti[1], ' [', kriti[2], ']', '\n']|join|string}}
 	{%- else -%}
 		* {{[kriti[0], ' - ', kriti[1], '\n']|join|string}}
 	{%- endif-%}
@@ -117,23 +117,25 @@
 {%- if same_aro|length > 0 -%}
 {{['\n', 'ఈ రాగం ఆరోహణము కింద ఇవ్వబడిన రాగాల ఆరోహణముతో సమానమైనది.', '\n']|join|string}}
 {%- for raag in same_aro -%}
-	* {{[raag, '\n']|join|string}}
+	* {{['[[', raag, ']]', '\n']|join|string}}
 {%- endfor -%}
 {%- endif -%}
 
 {%- if same_ava|length > 0 -%}
 {{['\n', 'ఈ రాగం అవరోహణము కింద ఇవ్వబడిన రాగాల అవరోహణముతో సమానమైనది.', '\n']|join|string}}
 {%- for raag in same_ava -%}
-	* {{[raag, '\n']|join|string}}
+	* {{['[[', raag, ']]', '\n']|join|string}}
 {%- endfor -%}
 {%- endif -%}
 
 {%- if one_swara_diff|length > 0 -%}
 {{['\n', 'ఈ క్రింద ఇవ్వబడిన రాగాలకు ఈ రాగంతో ఒక్క స్వరస్థాన భేదం ఉన్నది.', '\n']|join|string}}
 {%- for raag in one_swara_diff -%}
-	* {{[raag, '\n']|join|string}}
+	* {{['[[', raag, ']]', '\n']|join|string}}
 {%- endfor -%}
 {%- endif -%}
 
 {{['\n', '\n']|join|string}}
-[[వర్గం:మేళకర్త రాగాలు]]
+[[వర్గం:తెవికి కర్ణాటక సంగీత రాగాలు]]
+[[వర్గం:కర్ణాటక సంగీత రాగాలు]]
+{{['[[వర్గం:', category, ' రాగాలు]]']|join('')|string if category is not none}}

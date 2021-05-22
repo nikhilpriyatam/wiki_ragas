@@ -1,0 +1,64 @@
+{{Infobox ragam
+	| name          	= సింధు
+	| synonym	    	= 
+	| mela          	= 
+	| chakra        	= 
+	| janaka        	= 
+	| type          	= ఔడవ-సంపూర్ణ
+	| arohanam      	= {{svaraC|S|R1|G3|R1|M1|P|S'}} 
+	| avarohanam    	= {{svaraC|S'|N3|D2|P|N3|D2|P|M1|G3|R1|S}}
+	| jeeva         	=
+	| chhaya        	=
+	| nyasa         	=
+	| vishesha      	= 
+	| equivalent  		= 
+}}
+{{కర్ణాటక సంగీత రాగాలు}}
+'''సింధు రాగము''' [[కర్ణాటక సంగీతం]]లో 17వ [[మేళకర్త రాగము]] సూర్యకాంతం జన్యము.  ఈ రాగం ఆరోహణలో ఐదు స్వరాలు, అవరోహణంలో సప్త స్వరాలు ఉండడం వల్ల దీనిని ఔడవ-సంపూర్ణ రాగం అంటారు.
+
+
+==రాగ లక్షణాలు==
+[[Image:sindhu_ar_kb2wiki.png|thumb|right|316px|''సింధు'' ఆరోహణ C వద్ద షడ్జమంతో]]
+	[[Image:sindhu_av_kb2wiki.png|thumb|right|316px|''సింధు'' అవరోహణ C వద్ద షడ్జమంతో]]
+
+* ఆరోహణ : {{svaraC|S|R1|G3|R1|M1|P|S'}} 
+* అవరోహణ : {{svaraC|S'|N3|D2|P|N3|D2|P|M1|G3|R1|S}}
+
+ఈ రాగం ఆరోహణంలో షడ్జమం, సుద్ద  రిషభం, అంతర గాంధారం, సుద్ద  రిషభం, సుద్ద మధ్యమం, పంచమం, షడ్జమం [[స్వరాలు]], అవరోహణంలో షడ్జమం, కాకలి  నిషాదం, చతుశృతి దైవతం, పంచమం, కాకలి  నిషాదం, చతుశృతి దైవతం, పంచమం, సుద్ద మధ్యమం, అంతర గాంధారం, సుద్ద  రిషభం, షడ్జమం [[స్వరాలు]] ఉంటాయి.
+
+==రచనలు==
+ఈ రాగంలో ఉన్న కృతుల పాక్షిక జాబితా [https://github.com/ssrihari/ragavardhini/blob/master/ragas/kritis.psv]
+* అగరముమాగి  (తిరుప్పుగస్హ్) - అరుణగిరినాథర్[http://www.karnatik.com/c1492.shtml]
+* అప్పులేని సంసార - అన్నమాచార్య[http://www.karnatik.com/c1574.shtml]
+* చిన్న చిన్న పాపా - శుద్ధానంద  భారతి[http://www.karnatik.com/c1631.shtml]
+* దేవాది దేవ - త్యాగరాజ[http://www.karnatik.com/c2257.shtml]
+* దేవకీ నందన - పురందర దాస[http://www.karnatik.com/c1495.shtml]
+* కైలాసవాసం - ముథీహ్ భగవతర్[http://www.karnatik.com/c1928.shtml]
+* క్రీడతి వనమాలి - సదాసివ  బ్రహ్మేంద్ర[http://www.karnatik.com/c2973.shtml]
+* మణదీర్క్  - కుఘండదు - తంజావుర్ శంకర ఐయెర్[http://www.karnatik.com/c1416.shtml]
+* మావూర్   వలం - ముథీహ్ భగవతర్[http://www.karnatik.com/c2210.shtml]
+* నాద్రుధ్రు  ధీమ్ (తిల్లానా) - పూచి శ్రీనివాస ఈయెంగర్[http://www.karnatik.com/c3240.shtml]
+* శివనార్ మనం కూలిర - అరుణగిరినాథర్[http://www.karnatik.com/c1103.shtml]
+* శ్రీ జటాధరా - ముథీహ్ భగవతర్[http://www.karnatik.com/c1927.shtml]
+* సుధ మాధుర్య - త్యాగరాజ[http://www.karnatik.com/c2871.shtml]
+* తంబూరి మిట్టిదవ - పురందర దాస[http://www.karnatik.com/c1706.shtml]
+* తిల్లానా  (నాద్రు  తధీమ్  ధిరనా) - ఎస్. కళ్యాణరామన్[http://www.karnatik.com/c3321.shtml]
+* తిల్లానా  (నాద్రుతాడేం) - ఎస్. కళ్యాణరామన్[http://www.karnatik.com/c3311.shtml]
+* తీరాద విళైయాట్టు పిల్లై - భారతియార్[http://www.karnatik.com/c1439.shtml]
+* వందే మాతరం - సుబ్రహ్మణి భారతి[http://www.karnatik.com/c1504.shtml]
+* వెంకటాచలనిలయం - పురందర దాస[http://www.karnatik.com/c1485.shtml]
+
+
+
+
+==పోలిన రాగాలు==
+ఈ క్రింద ఇవ్వబడిన రాగాలకు ఈ రాగంతో ఒక్క స్వరస్థాన భేదం ఉన్నది.
+* ధీరశంకరాభరణం
+* బేగడ
+* బిలహరి
+* అతనా
+* కనడ
+
+
+
+[[వర్గం:మేళకర్త రాగాలు]]

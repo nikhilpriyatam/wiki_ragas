@@ -1,0 +1,63 @@
+{{Infobox ragam
+	| name          	= వసంతక
+	| synonym	    	= 
+	| mela          	= 
+	| chakra        	= 
+	| janaka        	= 
+	| type          	= షడవ-సంపూర్ణ
+	| arohanam      	= {{svaraC|S|R1|M1|P|N2|D1|S'}} 
+	| avarohanam    	= {{svaraC|S'|N2|D1|D1|P|M1|S|M1|G3|R1|S}}
+	| jeeva         	=
+	| chhaya        	=
+	| nyasa         	=
+	| vishesha      	= 
+	| equivalent  		= 
+}}
+{{కర్ణాటక సంగీత రాగాలు}}
+'''వసంతక రాగము''' [[కర్ణాటక సంగీతం]]లో 14వ [[మేళకర్త రాగము]] వకుళభరణం జన్యము. 
+
+
+==రాగ లక్షణాలు==
+[[Image:vasantaka_ar_kb2wiki.png|thumb|right|316px|''వసంతక'' ఆరోహణ C వద్ద షడ్జమంతో]]
+	[[Image:vasantaka_av_kb2wiki.png|thumb|right|316px|''వసంతక'' అవరోహణ C వద్ద షడ్జమంతో]]
+
+* ఆరోహణ : {{svaraC|S|R1|M1|P|N2|D1|S'}} 
+* అవరోహణ : {{svaraC|S'|N2|D1|D1|P|M1|S|M1|G3|R1|S}}
+
+ఈ రాగం ఆరోహణంలో షడ్జమం, సుద్ద  రిషభం, సుద్ద మధ్యమం, పంచమం, కైసికి నిషాదం, సుద్ద దైవతం, షడ్జమం [[స్వరాలు]], అవరోహణంలో షడ్జమం, కైసికి నిషాదం, సుద్ద దైవతం, సుద్ద దైవతం, పంచమం, సుద్ద మధ్యమం, షడ్జమం, సుద్ద మధ్యమం, అంతర గాంధారం, సుద్ద  రిషభం, షడ్జమం [[స్వరాలు]] ఉంటాయి.
+
+==రచనలు==
+ఈ రాగంలో ఉన్న కృతుల పాక్షిక జాబితా [https://github.com/ssrihari/ragavardhini/blob/master/ragas/kritis.psv]
+* ఆడిన అరవింద - అంబుజం కృష్ణ[http://www.karnatik.com/c3324.shtml]
+* చిరుత ప్రాయము (వర్ణం) - తిరువెత్తియూర్ త్యాగయ్య[http://www.karnatik.com/c2993.shtml]
+* దాని కోరికెను (వర్ణం) - పూచి శ్రీనివాస ఈయెంగర్[http://www.karnatik.com/c3230.shtml]
+* ఎట్లా దొరకితివో - త్యాగరాజ[http://www.karnatik.com/c2316.shtml]
+* జయమంగళం - ముథీహ్ భగవతర్[http://www.karnatik.com/c2108.shtml]
+* కండెన్ కండెన్ - అరుణాచల కవి[http://www.karnatik.com/c1075.shtml]
+* మాల్ మరుగా - పాపనాసం  శివన్[http://www.karnatik.com/c2640.shtml]
+* నా మొరాలకింప - భద్రాచల రామదాసు[http://www.karnatik.com/c2482.shtml]
+* నటనం ఆదినార్ - గోపాలకృష్ణ భారతి[http://www.karnatik.com/c1351.shtml]
+* పుష్పపుర నివాస - త్యాగరాజ[http://www.karnatik.com/c2734.shtml]
+* రామ రామ రామ రామ ఎనిరో - పురందర దాస[http://www.karnatik.com/c1147.shtml]
+* రామజోగి మందు - భద్రాచల రామదాసు[http://www.karnatik.com/c2501.shtml]
+* సన్నుతాంగి  (దారు  వర్ణం ) - ముథీహ్ భగవతర్[http://www.karnatik.com/c2119.shtml]
+* శివ మహాసేన - ముథీహ్ భగవతర్[http://www.karnatik.com/c1968.shtml]
+* సీతమ్మ మాయమ్మ - త్యాగరాజ[http://www.karnatik.com/c1037.shtml]
+
+
+
+
+==పోలిన రాగాలు==
+ఈ రాగం ఆరోహణము కింద ఇవ్వబడిన రాగాల ఆరోహణముతో సమానమైనది.
+* రత్నావళి
+
+ఈ క్రింద ఇవ్వబడిన రాగాలకు ఈ రాగంతో ఒక్క స్వరస్థాన భేదం ఉన్నది.
+* తోడీ
+* ధన్యాసి
+* నలత్తం
+*  అసావేరి
+* గౌళిపంతు
+
+
+
+[[వర్గం:మేళకర్త రాగాలు]]

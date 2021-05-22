@@ -1,0 +1,94 @@
+{{Infobox ragam
+	| name          	= కమల
+	| synonym	    	= 
+	| mela          	= 
+	| chakra        	= 
+	| janaka        	= 
+	| type          	= ఔదవ
+	| arohanam      	= {{svaraC|S|G2|M1|D2|N3|S'}} 
+	| avarohanam    	= {{svaraC|S'|N3|D2|M1|G2|S}}
+	| jeeva         	=
+	| chhaya        	=
+	| nyasa         	=
+	| vishesha      	= 
+	| equivalent  		= సూర్యకౌంస్
+}}
+{{కర్ణాటక సంగీత రాగాలు}}
+'''కమల రాగము''' [[కర్ణాటక సంగీతం]]లో 23వ [[మేళకర్త రాగము]] గౌరిమనోహరి జన్యము.  హిందుస్తానీ సంగీతంలో సూర్యకౌంస్ రాగం దీనితో సమానమైనది [https://karnatik.com/hcragatable.shtml].
+
+
+==రాగ లక్షణాలు==
+[[Image:kamala_kb2wiki.png|thumb|right|316px|''కమల'' C వద్ద షడ్జమంతో]]
+
+* ఆరోహణ : {{svaraC|S|G2|M1|D2|N3|S'}} 
+* అవరోహణ : {{svaraC|S'|N3|D2|M1|G2|S}}
+
+ఈ రాగం ఆరోహణంలో షడ్జమం, సాధారణ  గాంధారం, సుద్ద మధ్యమం, చతుశృతి దైవతం, కాకలి  నిషాదం, షడ్జమం [[స్వరాలు]], అవరోహణంలో షడ్జమం, కాకలి  నిషాదం, చతుశృతి దైవతం, సుద్ద మధ్యమం, సాధారణ  గాంధారం, షడ్జమం [[స్వరాలు]] ఉంటాయి.
+
+==రచనలు==
+ఈ రాగంలో ఉన్న కృతుల పాక్షిక జాబితా [https://github.com/ssrihari/ragavardhini/blob/master/ragas/kritis.psv]
+* అంబిలైయే - పాపనాసం  శివన్[http://www.karnatik.com/c1584.shtml]
+* అపదూరుకు  లోనైతినే (జావళి) - పట్టభిరామయ్య[http://www.karnatik.com/c1197.shtml]
+* అపుడు మనసు (జావళి) - పట్నం సుబ్రమణ్య ఐయెర్[http://www.karnatik.com/c1198.shtml]
+* బ్రోచెవారేవరురా - మైసూరు వసుదేవాచార్[http://www.karnatik.com/c1305.shtml]
+* దేవ నమో నమో - ఆర్. రామచంద్రన్ నైర్[http://www.karnatik.com/c3095.shtml]
+* ఏహి ముదం  దేహి - నారాయణ తీర్థ[http://www.karnatik.com/c1331.shtml]
+* ఏన్నన్నైయె - ముథీహ్ భగవతర్[http://www.karnatik.com/c2216.shtml]
+* గజాననం భజే - ఆర్. రామచంద్రన్ నైర్[http://www.karnatik.com/c3098.shtml]
+* యీ వేళ నన్ను - భద్రాచల రామదాసు[http://www.karnatik.com/c2476.shtml]
+* జయతి జయతి - విశ్వనాథ శాస్త్రి[http://www.karnatik.com/c1139.shtml]
+* కడైక్కన్ పార్వైయడు - పాపనాసం  శివన్[http://www.karnatik.com/c1585.shtml]
+* కంచదలాయదాక్షీ - ముత్తుస్వామి దీక్షితార్[http://www.karnatik.com/c1057.shtml]
+* కందవర్ మరవారే - శుద్ధానంద  భారతి[http://www.karnatik.com/c1620.shtml]
+* మదనాంగ మోహన - ఊతుక్కడు వెంకట కవి[http://www.karnatik.com/c2510.shtml]
+* మనసా రాముని - వేంకటరమణ భగవతార్[http://www.karnatik.com/c3183.shtml]
+* మరేయ బెడ మనవె - పురందర దాస[http://www.karnatik.com/c1091.shtml]
+* మరులు కొన్నదిరా (జావలి) - పూచి శ్రీనివాస ఈయెంగర్[http://www.karnatik.com/c3238.shtml]
+* మాటాడ బారడెనో - నరహరిదాస[http://www.karnatik.com/c3142.shtml]
+* మాతంగ వదనాా - ముథీహ్ భగవతర్[http://www.karnatik.com/c2126.shtml]
+* మాతే మలయధ్వజ (దరు వర్ణం) - ముథీహ్ భగవతర్[http://www.karnatik.com/c1466.shtml]
+* మొది జేసేవేలరా - పట్టభిరామయ్య[http://www.karnatik.com/c1151.shtml]
+* నీ ముద్దు  మొము - త్యాగరాజ[http://www.karnatik.com/c2654.shtml]
+* పాద భజన - జి. ఎన్. బాలసుబ్రమణ్యం[http://www.karnatik.com/c3071.shtml]
+* పరిపూర్ణ - శుద్ధానంద  భారతి[http://www.karnatik.com/c1670.shtml]
+* పరిపాల పొరపాని  (కాని ) - పాపనాసం  శివన్[http://www.karnatik.com/c1587.shtml]
+* సాంబ శివాయనవే (స్వరజతి ) - చిన్నక్రిష్ణ దాసర్[http://www.karnatik.com/c2421.shtml]
+* సానరో  ఈ మొహము   (జావలి) - పూచి శ్రీనివాస ఈయెంగర్[http://www.karnatik.com/c3261.shtml]
+* శ్రీ పరమేశ్వరి - ముథీహ్ భగవతర్[http://www.karnatik.com/c1746.shtml]
+* శ్రీ రామచంద్ర (వర్ణం) - వేంకటరమణ భగవతార్[http://www.karnatik.com/c3217.shtml]
+* శ్రీ శైల - ముథీహ్ భగవతర్[http://www.karnatik.com/c2105.shtml]
+* శృంగార మూర్తివి - అన్నమాచార్య[http://www.karnatik.com/c2639.shtml]
+* సీతాపతి నా - త్యాగరాజ[http://www.karnatik.com/c2867.shtml]
+* సుజన జీవన - త్యాగరాజ[http://www.karnatik.com/c2873.shtml]
+* తిల్లానా - పట్నం సుబ్రమణ్య ఐయెర్[http://www.karnatik.com/c2513.shtml]
+* తిరువలర్ మయిలైయుం  (కన్ని) - పాపనాసం  శివన్[http://www.karnatik.com/c1586.shtml]
+* విడవనురా నావ్యతలు - వేంకటరమణ భగవతార్[http://www.karnatik.com/c3224.shtml]
+
+
+
+
+==పోలిన రాగాలు==
+ఈ రాగం ఆరోహణము కింద ఇవ్వబడిన రాగాల ఆరోహణముతో సమానమైనది.
+* సరోజం
+* స్వరమతి
+* హంసభుసాని
+*  కోకిలదీపకం
+
+ఈ రాగం అవరోహణము కింద ఇవ్వబడిన రాగాల అవరోహణముతో సమానమైనది.
+* సూర్యకౌంస్
+* అర్ధనారీష
+* సమీరనన్
+* సామీ
+* అవలోకిత
+* అరిమణి
+
+ఈ క్రింద ఇవ్వబడిన రాగాలకు ఈ రాగంతో ఒక్క స్వరస్థాన భేదం ఉన్నది.
+* శివశక్తి
+* కాటారం
+* హిందోళగామిని
+* వసంతశ్రీ
+* వసంతమల్లి
+
+
+
+[[వర్గం:మేళకర్త రాగాలు]]

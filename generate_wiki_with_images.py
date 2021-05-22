@@ -23,10 +23,10 @@ def render_template(template_name, entry_dict, res_path):
 
 if __name__ == '__main__':
     PARSER = argparse.ArgumentParser()
-    PARSER.add_argument('--kb_path')
-    PARSER.add_argument('--img_path')
-    PARSER.add_argument('--template_name')
-    PARSER.add_argument('--result_path')
+    PARSER.add_argument('--kb_path', type=str, default="ragakb.json")
+    PARSER.add_argument('--img_path', type=str, default="raga_images/")
+    PARSER.add_argument('--template_name', type=str, default="ragas.wiki")
+    PARSER.add_argument('--result_path', type=str, default="raga_articles/")
 
     ARGS = PARSER.parse_args()
     DOMAIN_KB = json.load(open(ARGS.kb_path, 'r'))
@@ -34,7 +34,7 @@ if __name__ == '__main__':
         img_paths = []
         raga_img = ARGS.img_path + "/" + item['name'] + '_kb2wiki.png'
         if path.exists(raga_img):
-            img_paths.append(item['name'] + '.png')
+            img_paths.append(item['name'] + '_kb2wiki.png')
         else:
             img_paths.append(item['name'] + "_ar_kb2wiki.png")
             img_paths.append(item['name'] + "_av_kb2wiki.png")

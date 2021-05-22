@@ -1,0 +1,58 @@
+{{Infobox ragam
+	| name          	= శ్యామ
+	| synonym	    	= 
+	| mela          	= 
+	| chakra        	= 
+	| janaka        	= 
+	| type          	= ఔదవ
+	| arohanam      	= {{svaraC|S|R2|M2|P|N1|S'}} 
+	| avarohanam    	= {{svaraC|S'|N1|P|M2|R2|S}}
+	| jeeva         	=
+	| chhaya        	=
+	| nyasa         	=
+	| vishesha      	= 
+	| equivalent  		= 
+}}
+{{కర్ణాటక సంగీత రాగాలు}}
+'''శ్యామ రాగము''' [[కర్ణాటక సంగీతం]]లో 55వ [[మేళకర్త రాగము]] షామలంగి జన్యము. 
+
+
+==రాగ లక్షణాలు==
+[[Image:shyama_kb2wiki.png|thumb|right|316px|''శ్యామ'' C వద్ద షడ్జమంతో]]
+
+* ఆరోహణ : {{svaraC|S|R2|M2|P|N1|S'}} 
+* అవరోహణ : {{svaraC|S'|N1|P|M2|R2|S}}
+
+ఈ రాగం ఆరోహణంలో షడ్జమం, చతుశృతి రిషభం, ప్రతి మధ్యమం, పంచమం, సుద్ద నిషాదం, షడ్జమం [[స్వరాలు]], అవరోహణంలో షడ్జమం, సుద్ద నిషాదం, పంచమం, ప్రతి మధ్యమం, చతుశృతి రిషభం, షడ్జమం [[స్వరాలు]] ఉంటాయి.
+
+==రచనలు==
+ఈ రాగంలో ఉన్న కృతుల పాక్షిక జాబితా [https://github.com/ssrihari/ragavardhini/blob/master/ragas/kritis.psv]
+* పరాత్పరే పకారిణుతే - ముథీహ్ భగవతర్
+* అన్నపూర్ణే  విశాలాక్షి - ముత్తుస్వామి దీక్షితార్[http://www.karnatik.com/c1728.shtml]
+* ఎటులైన భక్తి - త్యాగరాజ[http://www.karnatik.com/c2320.shtml]
+* గురువాయుపురేషా - ఆర్. రామచంద్రన్ నైర్[http://www.karnatik.com/c3100.shtml]
+* కాత్తిరుక్కిన్రేన్ ఎన్ అయ్యా - శుద్ధానంద  భారతి[http://www.karnatik.com/c1698.shtml]
+* మానస సంచరరే - సదాసివ  బ్రహ్మేంద్ర[http://www.karnatik.com/c1059.shtml]
+* మరవకవె  ఓ మనస - పట్నం సుబ్రమణ్య ఐయెర్[http://www.karnatik.com/c1751.shtml]
+* నిమిషమైన - మైసూరు వసుదేవాచార్[http://www.karnatik.com/c1427.shtml]
+* పరాత్పరే - ముథీహ్ భగవతర్[http://www.karnatik.com/c2088.shtml]
+* సామ ప్రియా - ముథీహ్ భగవతర్[http://www.karnatik.com/c1935.shtml]
+* శాంతము లేక - త్యాగరాజ[http://www.karnatik.com/c2825.shtml]
+* శివ శంకర పాహి - ఆర్. రామచంద్రన్ నైర్[http://www.karnatik.com/c3127.shtml]
+* శివపరాధము - త్యాగరాజ[http://www.karnatik.com/c2830.shtml]
+* వరువారో వరం తరువారో - గోపాలకృష్ణ భారతి[http://www.karnatik.com/c1361.shtml]
+
+
+
+
+==పోలిన రాగాలు==
+ఈ క్రింద ఇవ్వబడిన రాగాలకు ఈ రాగంతో ఒక్క స్వరస్థాన భేదం ఉన్నది.
+* హంసనాదం
+*  బృందావనసారంగ
+* వందనాదరిని
+* యాక్సప్రియ
+* యాగిని
+
+
+
+[[వర్గం:మేళకర్త రాగాలు]]

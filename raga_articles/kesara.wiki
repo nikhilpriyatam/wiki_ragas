@@ -1,0 +1,93 @@
+{{Infobox ragam
+	| name          	= కేసర
+	| synonym	    	= 
+	| mela          	= 
+	| chakra        	= 
+	| janaka        	= 
+	| type          	= ఔడవ
+	| arohanam      	= {{svaraC|S|R2|G3|M1|D1|S'}} 
+	| avarohanam    	= {{svaraC|S'|D1|M1|G3|R2|S}}
+	| jeeva         	=
+	| chhaya        	=
+	| nyasa         	=
+	| vishesha      	= 
+	| equivalent  		= 
+}}
+{{కర్ణాటక సంగీత రాగాలు}}
+'''కేసర''' రాగము [[కర్ణాటక సంగీతం]]లో 26వ [[మేళకర్త రాగము]] చారుకేశి జన్యము.  ఈ రాగంలో ఐదు స్వరాలు ఉండడం వల్ల దీనిని ఔడవ రాగం అంటారు.
+
+
+==రాగ లక్షణాలు==
+[[Image:kesara_kb2wiki.png|thumb|right|316px|''కేసర'' C వద్ద షడ్జమంతో]]
+
+* ఆరోహణ : {{svaraC|S|R2|G3|M1|D1|S'}} 
+* అవరోహణ : {{svaraC|S'|D1|M1|G3|R2|S}}
+
+ఈ రాగం ఆరోహణంలో షడ్జమం, చతుశృతి రిషభం, అంతర గాంధారం, సుద్ద మధ్యమం, సుద్ద దైవతం, షడ్జమం [[స్వరాలు]], అవరోహణంలో షడ్జమం, సుద్ద దైవతం, సుద్ద మధ్యమం, అంతర గాంధారం, చతుశృతి రిషభం, షడ్జమం [[స్వరాలు]] ఉంటాయి.
+
+==రచనలు==
+ఈ రాగంలో ఉన్న కృతుల పాక్షిక జాబితా [https://github.com/ssrihari/ragavardhini/blob/master/ragas/kritis.psv]
+* అంబిరుండాలె పోదుమ్ - శుద్ధానంద  భారతి [http://www.karnatik.com/c1644.shtml]
+* చేతహ శ్రీ రామం - సదాసివ  బ్రహ్మేంద్ర [http://www.karnatik.com/c2968.shtml]
+* దేవ విద్యాధిరాజ - ఆర్. రామచంద్రన్ నైర్ [http://www.karnatik.com/c3096.shtml]
+* ధర్మాత్మ నన్నిపుడు - త్యాగరాజ [http://www.karnatik.com/c2262.shtml]
+* ద్వాత్రిమ్షత్ - ముథీహ్ భగవతర్ [http://www.karnatik.com/c2072.shtml]
+* కలయ యశోదే - నారాయణ తీర్థ [http://www.karnatik.com/c1333.shtml]
+* కరుణా జలధీ - త్యాగరాజ [http://www.karnatik.com/c2396.shtml]
+* కరుణానిధివని - వేంకటరమణ భగవతార్ [http://www.karnatik.com/c3178.shtml]
+* కొలువుది భతి - అన్నమాచార్య [http://www.karnatik.com/c3153.shtml]
+* కౌసల్యా నందన - ముథీహ్ భగవతర్ [http://www.karnatik.com/c2156.shtml]
+* లాలి లాలయ్య - త్యాగరాజ [http://www.karnatik.com/c2524.shtml]
+* లాలి లాలయ్య - త్యాగరాజ [http://www.karnatik.com/c2524.shtml]
+* లాలి యుగవయ్యా - త్యాగరాజ [http://www.karnatik.com/c3287.shtml]
+* మా రామచంద్రునికి - త్యాగరాజ [http://www.karnatik.com/c2534.shtml]
+* మంగళాలయ మామవ - నారాయణ తీర్థ [http://www.karnatik.com/c1330.shtml]
+* నటనం షెయ్యుమ్ పాదనార్ - రామస్వామి శివన్ [http://www.karnatik.com/c1231.shtml]
+* నీల కందం   భజేహం - ముత్తుస్వామి దీక్షితార్ [http://www.karnatik.com/c3301.shtml]
+* నిన్నువీణాగాడెవ్వరో - వేంకటరమణ భగవతార్ [http://www.karnatik.com/c3192.shtml]
+* ఓ జగన్నాథ - త్యాగరాజ [http://www.karnatik.com/c2680.shtml]
+* ఓ రఘువీర - భద్రాచల రామదాసు [http://www.karnatik.com/c3087.shtml]
+* పాలయమాం  పరమేశ్వర - మైసూరు వసుదేవాచార్ [http://www.karnatik.com/c1428.shtml]
+* పరాకేల నన్ను - శ్యామ శాస్త్రి [http://www.karnatik.com/c1074.shtml]
+* రఘునందన రఘునందన - త్యాగరాజ [http://www.karnatik.com/c2736.shtml]
+* రామా రఘుకుల (స్వరజతి) - వేంకటరమణ భగవతార్ [http://www.karnatik.com/c3205.shtml]
+* రాముని మరవకువే - త్యాగరాజ [http://www.karnatik.com/c2784.shtml]
+* సామి  దయ జూడ  (వర్ణం) - తిరువెత్తియూర్ త్యాగయ్య [http://www.karnatik.com/c3026.shtml]
+* సామి ఇదే - కోటీశ్వర ఐయెర్ [http://www.karnatik.com/c1880.shtml]
+* సామి నీయే  గతి (వర్ణం) - కోటీశ్వర ఐయెర్ [http://www.karnatik.com/c1894.shtml]
+* సరగున పాలింప - పూచి శ్రీనివాస ఈయెంగర్ [http://www.karnatik.com/c3263.shtml]
+* సరసిజాక్షహా (తాన  వర్ణం ) - ముథీహ్ భగవతర్ [http://www.karnatik.com/c2113.shtml]
+* సిగ్గు మాలి - త్యాగరాజ [http://www.karnatik.com/c2863.shtml]
+* సింహరూపనాద - పురందర దాస [http://www.karnatik.com/c2446.shtml]
+* తిల్లానా  (తాం తనా ధిరన ) - వేంకటరమణ భగవతార్ [http://www.karnatik.com/c3220.shtml]
+* తులసి బిల్వ - త్యాగరాజ [http://www.karnatik.com/c2900.shtml]
+* వనజ నయనుడని - త్యాగరాజ [http://www.karnatik.com/c2912.shtml]
+* వారిజ నయన - త్యాగరాజ [http://www.karnatik.com/c2921.shtml]
+* వారిజ  నయన (వెర్షన్ 2) - త్యాగరాజ [http://www.karnatik.com/c2922.shtml]
+* వేదత్తిన్ ఉచ్చియిల్   (విరుత్తమ్) - ముథీహ్ భగవతర్ [http://www.karnatik.com/c2209.shtml]
+* వేణుగాన లోలుని - త్యాగరాజ [http://www.karnatik.com/c2927.shtml]
+
+
+
+
+==పోలిన రాగాలు==
+ఈ రాగం ఆరోహణము కింద ఇవ్వబడిన రాగాల ఆరోహణముతో సమానమైనది.
+* [[రాగమంజరి]]
+
+ఈ రాగం అవరోహణము కింద ఇవ్వబడిన రాగాల అవరోహణముతో సమానమైనది.
+* [[శుదర్కొంది]]
+* [[రమ్యపంచమం]]
+* [[రాగమంజరి]]
+
+ఈ క్రింద ఇవ్వబడిన రాగాలకు ఈ రాగంతో ఒక్క స్వరస్థాన భేదం ఉన్నది.
+* [[ఆరభి]]
+* [[వసంతి]]
+* [[దేశక్సి]]
+* [[యజ్హ్వల్లోన్]]
+* [[వీరాదివసంతం]]
+
+
+
+[[వర్గం:తెవికి కర్ణాటక సంగీత రాగాలు]]
+[[వర్గం:కర్ణాటక సంగీత రాగాలు]]
+[[వర్గం:ఔడవ రాగాలు]]
